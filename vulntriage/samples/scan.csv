@@ -1,0 +1,19 @@
+host,cve,title,cvss,exploit_available,internet_facing,asset_criticality
+web-prod-01,CVE-2021-44228,Apache Log4j2 Remote Code Execution (Log4Shell),10.0,yes,yes,critical
+web-prod-01,CVE-2023-44487,HTTP/2 Rapid Reset DoS,7.5,yes,yes,critical
+db-prod-01,CVE-2023-21980,MySQL Server privilege escalation,7.1,no,no,critical
+vpn-gw-01,CVE-2023-27997,Fortinet FortiOS SSL-VPN heap overflow,9.8,yes,yes,high
+mail-01,CVE-2022-41040,Microsoft Exchange SSRF (ProxyNotShell),8.8,yes,yes,high
+hr-app-01,CVE-2022-22965,Spring4Shell RCE,9.8,yes,no,high
+file-srv-01,CVE-2020-1472,Netlogon Elevation of Privilege (Zerologon),10.0,yes,no,critical
+dev-box-07,CVE-2019-0708,RDP Remote Code Execution (BlueKeep),9.8,yes,no,low
+dev-box-07,CVE-2021-3156,Sudo heap overflow (Baron Samedit),7.8,yes,no,low
+print-02,CVE-2021-34527,Windows Print Spooler RCE (PrintNightmare),8.8,yes,no,medium
+intranet-01,CVE-2022-0778,OpenSSL infinite loop DoS,7.5,no,no,medium
+wiki-01,CVE-2023-22515,Confluence broken access control,10.0,yes,yes,medium
+kiosk-03,CVE-2018-1111,DHCP client command injection,7.5,no,no,low
+jump-01,CVE-2023-38408,OpenSSH ssh-agent RCE,9.8,no,no,high
+backup-01,CVE-2021-4034,Polkit pkexec local privilege escalation,7.8,yes,no,high
+test-vm-12,CVE-2016-2183,SWEET32 weak 3DES cipher,5.3,no,no,low
+test-vm-12,CVE-2015-4000,Logjam weak DH parameters,3.7,no,no,low
+cms-01,CVE-2022-21661,WordPress SQL injection,7.5,no,yes,medium
